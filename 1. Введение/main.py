@@ -11,22 +11,17 @@
 
 '''
 
-"""
+
 # print() завершается переносом строки
 print('Text 1', 'Text 2', 'Text 3', end=' ')
 print('Text 4', 'Text 5', 'Text 6')
-"""
 
-"""
+
 print('\'Text 1\'', '\'Text 2\'', '\'Text 3\'', '\'Text 4\'', sep='\n')
-"""
 
-"""
+
 name = input('Введите имя: ')
 age = input('Введите возраст: ')
 # print("Меня зовут ",  name, ", мне ", age, " лет", sep='')
 # Запись короче:
 print(f'Меня зовут {name}, мне {age} лет')
-"""
-
-
